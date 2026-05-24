@@ -1,9 +1,14 @@
 # Текущее состояние (State)
 
 ## Последнее обновление
-Плагин переименован из «No Crumbs» в «NoCrumbs Cookie Notice» (v1.2.0). Slug и text domain обновлены на `nocrumbs-cookie-notice`.
+Минорный релиз v1.3.0: обновлён Author URI и подтверждена совместимость с WordPress 7.0.
 
-## Что сделано в версии 1.2.0:
+## Что сделано в версии 1.3.0:
+1. Author URI обновлён на `https://delosvod.ru/`.
+2. Совместимость подтверждена до WordPress 7.0 (`Tested up to`).
+3. Обновлена вся документация (CHANGELOG, readme.txt, STATE.md).
+
+## Что было сделано в версии 1.2.0:
 1. Ребрендинг: Plugin Name → «NoCrumbs Cookie Notice», Text Domain → `nocrumbs-cookie-notice`.
 2. Переименованы файлы ассетов: `no-crumbs.css` → `nocrumbs-cookie-notice.css`, `no-crumbs.js` → `nocrumbs-cookie-notice.js`.
 3. Переименован POT-файл: `no-crumbs.pot` → `nocrumbs-cookie-notice.pot`.

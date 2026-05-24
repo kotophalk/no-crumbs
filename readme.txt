@@ -3,7 +3,7 @@ Contributors: kotophalk
 Tags: cookie, notice, 152-fz, privacy, compliance
 Requires at least: 5.0
 Tested up to: 7.0
-Stable tag: 1.2.0
+Stable tag: 1.3.0
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -61,6 +61,10 @@ In the current version (MVP), the text and design are fixed. Customization optio
 
 == Changelog ==
 
+= 1.3.0 =
+* Updated Author URI to delosvod.ru.
+* Tested up to WordPress 7.0.
+
 = 1.2.0 =
 * Rebranded plugin: "No Crumbs" → "NoCrumbs Cookie Notice".
 * Updated slug and text domain to `nocrumbs-cookie-notice`.
@@ -79,6 +83,9 @@ In the current version (MVP), the text and design are fixed. Customization optio
 * Internationalization (i18n) with POT file.
 
 == Upgrade Notice ==
+
+= 1.3.0 =
+Updated Author URI. Tested up to WordPress 7.0.
 
 = 1.2.0 =
 Plugin rebranded to "NoCrumbs Cookie Notice". Updated slug, text domain, and asset file names.
