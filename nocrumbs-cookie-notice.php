@@ -5,10 +5,10 @@
  * Description: Минималистичный плагин из серии "установил и забыл" для уведомлений о cookie (152-ФЗ). Нуль влияния на скорость загрузки.
  * Version: 1.2.0
  * Requires at least: 5.0
- * Tested up to: 6.9
+ * Tested up to: 7.0
  * Requires PHP: 7.4
  * Author: Лаборатория Делосвод
- * Author URI: https://stodum.ru/
+ * Author URI: https://delosvod.ru/
  * License: GPLv2 or later
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Text Domain: nocrumbs-cookie-notice
