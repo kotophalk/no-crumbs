@@ -1,0 +1,46 @@
+<!doctype html><html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="nocrumbs-cookie-notice.css">
+<style>
+@font-face{font-family:'Geist Sans';src:url('Geist-Variable.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Geist Mono';src:url('GeistMono-Variable.woff2') format('woff2');font-weight:100 900}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+body{font-family:'Geist Sans',system-ui,sans-serif;color:#171717;background:#fff;-webkit-font-smoothing:antialiased;line-height:1.6}
+header{border-bottom:1px solid #ebebeb}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+.logo{font-weight:600;letter-spacing:-.02em;font-size:18px}
+nav a{color:#666;font-size:15px;margin-left:24px;text-decoration:none}
+article{padding:56px 0 80px}
+.meta{font-family:'Geist Mono',monospace;font-size:12px;color:#666;letter-spacing:.04em}
+h1{font-size:40px;line-height:1.1;letter-spacing:-.04em;font-weight:600;margin:12px 0 24px}
+p{font-size:17px;color:#4d4d4d;margin:0 0 20px}
+h2{font-size:24px;letter-spacing:-.03em;font-weight:600;margin:36px 0 12px}
+.ph{height:280px;border-radius:8px;background:#fafafa;box-shadow:0 0 0 1px rgba(0,0,0,.08);margin:28px 0;display:flex;align-items:center;justify-content:center;font-family:'Geist Mono',monospace;color:#808080;font-size:12px}
+footer{border-top:1px solid #ebebeb;padding:24px 0;font-size:13px;color:#808080}
+@media(max-width:480px){.bar{height:56px}nav{display:none}article{padding:32px 0 60px}h1{font-size:30px}p{font-size:16px}.ph{height:200px}}
+</style></head><body>
+<header><div class="wrap bar"><div class="logo">Пример сайта</div><nav><a>Блог</a><a>Услуги</a><a>Контакты</a></nav></div></header>
+<article class="wrap">
+  <div class="meta">17 АВГУСТА 2026 · 6 МИН</div>
+  <h1>Как мы перестали бояться 152-ФЗ и полюбили короткие уведомления</h1>
+  <p>Cookie-уведомление обязано быть, но не обязано весить как крыло самолёта, тянуть за собой jQuery и три шрифта с чужого CDN. Достаточно одной карточки, одной кнопки и одной куки на тридцать дней.</p>
+  <div class="ph">[ ИЛЛЮСТРАЦИЯ ]</div>
+  <h2>Что происходит при загрузке страницы</h2>
+  <p>Сервер отдаёт разметку баннера в скрытом виде — поэтому страница спокойно живёт в любом кэше. Скрипт в браузере проверяет куку согласия: нашёл — тихо убрал баннер из DOM, не нашёл — плавно показал.</p>
+  <p>Ссылка на политику конфиденциальности подхватывается из настроек WordPress («Настройки → Конфиденциальность»). Настраивать больше нечего.</p>
+  <p>После нажатия «ОК» ставится кука на 30 дней, баннер уезжает вниз и исчезает. Всё.</p>
+</article>
+<footer><div class="wrap">© 2026 Пример сайта · Политика конфиденциальности</div></footer>
+<!-- No Crumbs Plugin -->
+<div id="nc-cookie-banner" class="nc-hidden nc-cookie-card" aria-hidden="true" role="dialog" aria-labelledby="nc-cookie-text">
+    <div class="nc-cookie-banner-content">
+        <p id="nc-cookie-text">Мы используем файлы с данными (cookie) для работы сайта. <a href="#" class="nc-privacy-link">Политика конфиденциальности</a></p>
+    </div>
+    <div class="nc-cookie-banner-action">
+        <button id="nc-cookie-accept" aria-label="Принять и закрыть">ОК</button>
+    </div>
+</div>
+<!-- /No Crumbs Plugin -->
+<script src="nocrumbs-cookie-notice.js"></script>
+</body></html>

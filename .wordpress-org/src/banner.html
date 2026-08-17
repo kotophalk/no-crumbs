@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:'Geist Sans';src:url('Geist-Variable.woff2') format('woff2');font-weight:100 900}
+@font-face{font-family:'Geist Mono';src:url('GeistMono-Variable.woff2') format('woff2');font-weight:100 900}
+html,body{margin:0;padding:0}
+body{width:772px;height:250px;overflow:hidden;background:#171717;color:#fff;font-family:'Geist Sans',sans-serif;position:relative;
+  -webkit-font-smoothing:antialiased}
+/* инженерная миллиметровка, как на hero главной, только тёмная */
+.grid{position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(255,255,255,.055) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.055) 1px,transparent 1px);
+  background-size:20px 20px;
+  -webkit-mask-image:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,1) 60%);
+  mask-image:linear-gradient(90deg,rgba(0,0,0,.35),rgba(0,0,0,1) 60%)}
+.copy{position:absolute;left:44px;top:0;bottom:0;width:376px;display:flex;flex-direction:column;justify-content:center;gap:12px}
+.label{font-family:'Geist Mono',monospace;font-size:12px;letter-spacing:.06em;color:#a3a3a3;font-weight:500}
+h1{margin:0;font-size:54px;line-height:1;font-weight:600;letter-spacing:-.05em;color:#fff}
+.sub{font-size:15px;line-height:1.45;color:#a3a3a3;margin:0}
+.sub b{color:#fff;font-weight:500}
+.tag{font-family:'Geist Mono',monospace;font-size:11px;color:#666;letter-spacing:.02em}
+/* настоящая карточка плагина (стили из nocrumbs-cookie-notice.css), просто стоит справа */
+.stage{position:absolute;right:40px;top:44px;bottom:44px;width:272px}
+.nc{position:absolute;right:0;bottom:0;background:#fff;border-radius:8px;box-shadow:0 4px 16px rgba(0,0,0,.35);
+  padding:16px 20px;width:272px;display:flex;flex-direction:column;gap:12px;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;color:#333;font-size:14px;line-height:1.5}
+.nc p{margin:0}
+.nc a{color:#0073aa;text-decoration:underline}
+.nc .act{display:flex;justify-content:flex-end}
+.nc button{background:#0073aa;color:#fff;border:0;border-radius:4px;padding:8px 16px;font-size:13px;font-weight:600;font-family:inherit}
+/* размерная линия «< 5 КБ» */
+.dim{position:absolute;right:0;top:0;font-family:'Geist Mono',monospace;font-size:11px;color:#a3a3a3;display:flex;align-items:center;gap:8px}
+.dim i{display:block;width:60px;height:1px;background:#4d4d4d;position:relative}
+.dim i:before,.dim i:after{content:"";position:absolute;top:-3px;width:1px;height:7px;background:#4d4d4d}
+.dim i:before{left:0}.dim i:after{right:0}
+</style></head><body>
+<div class="grid"></div>
+<div class="copy">
+  <div class="label">[ БЕРИТЕ И ПОЛЬЗУЙТЕСЬ ]</div>
+  <h1>Крошка моя</h1>
+  <p class="sub">Cookie-уведомление по 152-ФЗ. Меньше <b>5 КБ</b>, ноль настроек, никакого jQuery. <b>Установил, забыл, пошёл пить кофе.</b></p>
+  <div class="tag">NoCrumbs Cookie Notice · delosvod.ru</div>
+</div>
+<div class="stage">
+  <div class="dim"><i></i>2 файла · css + js</div>
+  <div class="nc">
+    <p>Мы используем файлы с данными (cookie) для работы сайта. <a>Политика конфиденциальности</a></p>
+    <div class="act"><button>ОК</button></div>
+  </div>
+</div>
+</body></html>

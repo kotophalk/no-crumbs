@@ -59,6 +59,11 @@ Yes. Cookie checks are performed entirely in the browser (client-side JavaScript
 
 In the current version (MVP), the text and design are fixed. Customization options are planned for future releases.
 
+== Screenshots ==
+
+1. The notice on a desktop page: a compact card in the bottom-left corner, one "OK" button, a link to the Privacy Policy page taken from WordPress settings.
+2. The same notice on a phone: the card sits at the bottom with side margins, nothing is stretched to full width.
+
 == Changelog ==
 
 = 1.3.0 =
@@ -91,7 +96,7 @@ Updated Author URI. Tested up to WordPress 7.0.
 Plugin rebranded to "NoCrumbs Cookie Notice". Updated slug, text domain, and asset file names.
 
 = 1.1.0 =
-Adds quick-access links to the Stodm ecosystem in the plugin row on the Plugins page.
+Adds quick-access links to the Stodum ecosystem in the plugin row on the Plugins page.
 
 = 1.0.0 =
 Initial stable release.
