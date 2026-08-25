@@ -2,7 +2,7 @@
 Contributors: kotophalk
 Tags: cookie, notice, 152-fz, privacy, compliance
 Requires at least: 5.0
-Tested up to: 7.0
+Tested up to: 7.1
 Stable tag: 1.3.0
 Requires PHP: 7.4
 License: GPLv2 or later

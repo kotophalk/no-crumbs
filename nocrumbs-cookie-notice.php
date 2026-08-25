@@ -5,7 +5,7 @@
  * Description: Минималистичный плагин из серии "установил и забыл" для уведомлений о cookie (152-ФЗ). Нуль влияния на скорость загрузки.
  * Version: 1.3.0
  * Requires at least: 5.0
- * Tested up to: 7.0
+ * Tested up to: 7.1
  * Requires PHP: 7.4
  * Author: Лаборатория Делосвод
  * Author URI: https://delosvod.ru/
