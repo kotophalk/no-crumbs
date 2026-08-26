@@ -3,7 +3,7 @@
  * Plugin Name: NoCrumbs Cookie Notice
  * Plugin URI: https://delosvod.ru/
  * Description: Минималистичный плагин из серии "установил и забыл" для уведомлений о cookie (152-ФЗ). Нуль влияния на скорость загрузки.
- * Version: 1.3.0
+ * Version: 1.3.1
  * Requires at least: 5.0
  * Tested up to: 7.1
  * Requires PHP: 7.4
@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 // Константы плагина
-define( 'NO_CRUMBS_VERSION', '1.3.0' );
+define( 'NO_CRUMBS_VERSION', '1.3.1' );
 define( 'NO_CRUMBS_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'NO_CRUMBS_PLUGIN_URL', plugin_dir_url( __FILE__ ) );
 

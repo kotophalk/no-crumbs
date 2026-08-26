@@ -3,7 +3,7 @@ Contributors: kotophalk
 Tags: cookie, notice, 152-fz, privacy, compliance
 Requires at least: 5.0
 Tested up to: 7.1
-Stable tag: 1.3.0
+Stable tag: 1.3.1
 Requires PHP: 7.4
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
@@ -66,6 +66,9 @@ In the current version (MVP), the text and design are fixed. Customization optio
 
 == Changelog ==
 
+= 1.3.1 =
+* Tested up to WordPress 7.1. No code changes.
+
 = 1.3.0 =
 * Updated Author URI to delosvod.ru.
 * Tested up to WordPress 7.0.
@@ -88,6 +91,9 @@ In the current version (MVP), the text and design are fixed. Customization optio
 * Internationalization (i18n) with POT file.
 
 == Upgrade Notice ==
+
+= 1.3.1 =
+Compatibility release: tested up to WordPress 7.1. No code changes.
 
 = 1.3.0 =
 Updated Author URI. Tested up to WordPress 7.0.
